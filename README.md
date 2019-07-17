@@ -27,14 +27,15 @@ Dans certains cas, le numéro de l'entreprise n'est pas trouvé par Google. Dans
 
 ## Examples:
 ### Working Querys:
-* 74970-MARIGNIER (however when EXPERDECO is included in query, there are no results, most likely due to lack of accents)
+* Experdéco
+* 74970-MARIGNIER
 * SA-LUBING-INTERNATIONAL&62840-SAILLY-SUR-LA-LYS 
 * 301941407&SA-LUBING-INTERNATIONAL&62840-SAILLY-SUR-LA-LYS  
-* ATMOSPHERE&07110-CHASSIERS 
 
 ### Not working when SIREN added:
 * 308198449&ATMOSPHERE&07110-CHASSIERS
 
-### Not working due to insufficent information:
-* experdeco  
+### Not working due to insufficent information / Not found with google search:
+* EXPERDECO (however when EXPERDECO is included in query, there are no results, most likely due to lack of accents) 
+* ATMOSPHERE&07110-CHASSIERS 
 * sa-lubing-international  
