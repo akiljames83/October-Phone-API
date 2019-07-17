@@ -9,7 +9,7 @@ router.get("/:company", function(req, res) {
 	var company_info = req.params.company;
 	let query_params = company_info.split("&");
 
-	var query = "https://www.google.com/search?q=paris+contact+info";
+	var query = "https://www.google.com/search?q=contact+info";
 	const error_message = "Error: Number is not found in basic google search. Please add more information in query.";
 
 	var siren = {
