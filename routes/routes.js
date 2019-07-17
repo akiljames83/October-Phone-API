@@ -66,7 +66,7 @@ router.get("/:company", function(req, res) {
 			PHONE: (number && number.length && number[0].length > 4) ? number[0] : error_message
 		}
 
-		// send pretty json object
+		// Send pretty json object
 		res.end(JSON.stringify(response, null, 3));
 	});
 
@@ -104,7 +104,7 @@ function get_phone_number(body) {
 }
 
 /**
- * Function to be used to find first phone number in the body of text scraped from the google webpage.
+ * Function to be used to find a siren number in query param
  * @param  {string} body - Body of text to be parsed
  * @return {array}     	 - Nullable array of each instance of match
  */
