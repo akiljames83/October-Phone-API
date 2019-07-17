@@ -1,7 +1,7 @@
 var express 	= require("express"),
-	bodyParser  = require("body-parser"),
-	request		= require("request-promise"),
-	router		= express.Router();
+    bodyParser  = require("body-parser"),
+    request	= require("request-promise"),
+    router	= express.Router();
 
 
 router.get("/:company", function(req, res) {
