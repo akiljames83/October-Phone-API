@@ -26,7 +26,7 @@ Pour chercher une entreprise, entrez un "+" ou "-" chaîne après de la route "/
 Dans certains cas, le numéro de l'entreprise n'est pas trouvé par Google. Dans ce cas, j’affiche un message d’erreur et en redemande informations précises sur l'entreprise. J'ai choisi de le faire à la place de vérifier chaque lien dans la page car cette méthode est imprécise et nodejs n'est pas multithread et ne peut être parralélisé (facilement). En plus, si l'API Google native ne peut pas trouver l'entreprise en fonction de la requête, mon API examine les résultats de recherche pertinents et, dans ce cas, les résultats ne sont pas cohérents.  
 
 ## Examples:
-### Working Query's:
+### Working Querys:
 * 74970-MARIGNIER (however when EXPERDECO is included in query, there are no results, most likely due to lack of accents)
 * SA-LUBING-INTERNATIONAL&62840-SAILLY-SUR-LA-LYS 
 * 301941407&SA-LUBING-INTERNATIONAL&62840-SAILLY-SUR-LA-LYS  
