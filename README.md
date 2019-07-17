@@ -27,11 +27,11 @@ Dans certains cas, le numéro de l'entreprise n'est pas trouvé par Google. Dans
 
 ## Examples:
 ### Working:
-[*] china-arts 
-[*] china-arts&75010-paris
-[*] hotel+bellevue&71000+macon
-[*] sa-lubing-international&62840-sailly-sur-la-lys
+* china-arts  
+* china-arts&75010-paris  
+* hotel+bellevue&71000+macon  
+* sa-lubing-international&62840-sailly-sur-la-lys  
 
 ## Not working due to insufficent information:
-[*] experdeco
-[*] sa-lubing-international
+* experdeco  
+* sa-lubing-international  
