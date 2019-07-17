@@ -32,7 +32,7 @@ Dans certains cas, le numéro de l'entreprise n'est pas trouvé par Google. Dans
 * 301941407&SA-LUBING-INTERNATIONAL&62840-SAILLY-SUR-LA-LYS  
 * ATMOSPHERE&07110-CHASSIERS 
 
-### Not working when SIREN Added
+### Not working when SIREN added:
 * 308198449&ATMOSPHERE&07110-CHASSIERS
 
 ### Not working due to insufficent information:
