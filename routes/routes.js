@@ -25,10 +25,15 @@ router.get("/:company", function(req, res) {
 		if (siren_in_param !== null && siren_in_param[0].length === 9) {
 			siren.exists = true;
 			siren.number = siren_in_param[0];
+			return;
 		}
-
 		query += `+${clean_string}`;
 	});
+
+	// Better search results if siren is at the end
+	if (siren.exists) {
+		query += `+${siren.number}`;
+	}
 
 	// Specify options for the request
 	const options = {
